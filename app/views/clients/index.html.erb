@@ -1,0 +1,6 @@
+<h1>Clients List</h1>
+<hr>
+<% @clients.each do |client| %>
+  <p><%= link_to client.name, client %></p>
+<% end %>
+
